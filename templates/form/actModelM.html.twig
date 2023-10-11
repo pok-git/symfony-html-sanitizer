@@ -1,0 +1,53 @@
+{% extends 'base_bs5.html.twig' %}
+{% form_theme form 'bootstrap_5_layout.html.twig' %}
+{% block title %}Fly: new pdf!{% endblock %}
+
+{% block body %}
+<div class="container p-4">
+
+    <h1> Form <small class="text-secondary">Activity Model Manual Sanitizer</small>  </h1>
+
+
+
+    <div class="card" >
+        <div class="card-body" >
+            {{ form_start(form) }}
+                {{ form_errors(form) }}
+                {{ form_row(form.title) }}
+                {{ form_row(form.content) }}
+                <button type="submit" class="btn btn-primary">Submit</button>
+            {{ form_end(form) }}
+        </div>
+    </div>
+
+    <div class="card mt-4" >
+        <div class="card-body" >
+            <table class="table table-borderless">
+                <tbody>
+                <tr>
+                    <th scope="row">title</th>
+                    <td>{{ title }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">content</th>
+                    <td>{{ content }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">contentClean</th>
+                    <td>{{ contentClean }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">content Post</th>
+                    <td>{{ contentPost }}</td>
+                </tr>
+
+
+
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+</div>
+{% endblock %}
