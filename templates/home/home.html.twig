@@ -11,19 +11,23 @@
 
 
     <h3 class="mt-3">HTML Sanitizer</h3>
+    2 forms implemented to test symfony HTML Sanitizer
 
-    <h5 class="mt-3">Sanitizing HTML from Form Input</h5>
-
+    <h5 class="mt-3">1. Form Model</h5>
+    Sanitizing HTML from Form Input in <em>ActivityRichTextModelSanitizeFormType.php</em><br>
+    Enabling the sanitizer in TextType forms, or any form extending this type (such as TextareaType), using the sanitize_html option<br>
+    Reference:
     <a target="_blank"
           href="https://symfony.com/doc/current/html_sanitizer.html#sanitizing-html-from-form-input"
           class="link-underline-primary">
           https://symfony.com/doc/current/html_sanitizer.html#sanitizing-html-from-form-input
         </a>
+    <br>
 
 
-
-    <h5 class="mt-3">Sanitizing HTML in controller</h5>
-
+    <h5 class="mt-3">2. Form Model Manual</h5>
+    Sanitizing HTML in controller<br>
+    Here sanitization takes place manually right after submitting the form.<br>
 
     <h5 class="mt-3">Testing Samples</h5>
     Handy samples to test sanitization:<br>
