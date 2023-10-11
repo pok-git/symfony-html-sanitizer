@@ -13,8 +13,8 @@ Requirements
 
 Resources
 ------------
-* [Symfony Documentations][1].
-* [Symfony html_sanitizer][2].
+* [Symfony Documentation][1]
+* [Symfony html_sanitizer][2]
 
 [1]: https://symfony.com/
 [2]: https://symfony.com/doc/current/html_sanitizer.html
