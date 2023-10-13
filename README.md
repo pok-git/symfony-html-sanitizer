@@ -1,11 +1,9 @@
 symfony-html-sanitizer
 ========================
-This a symfony demo to test forms and html sanitization.
-
+This a symfony demo to test forms and html sanitization.  
 In this initial version 
 _Sanitizing HTML from Form Input_ 
-does NOT work.
-
+does NOT work.  
 Manual sanitization in the controller works as expected.
 
 Note: A model object is used to remove the extra complexity of a database for this demo.
